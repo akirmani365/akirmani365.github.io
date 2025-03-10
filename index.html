@@ -1,12 +1,114 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Site</title>
+    <title>My E-Commerce Site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is my first GitHub Pages site.</p>
+    <header>
+        <h1>Welcome to My E-Commerce Store</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="cart.html">Cart</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign Up</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Featured Products</h2>
+        <p>Explore our collection of awesome products!</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 My E-Commerce Store</p>
+    </footer>
 </body>
 </html>
+
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Login</h2>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
+
+<!-- signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Sign Up</h2>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+</html>
+
+<!-- style.css -->
+/* Add this as a separate file */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+nav a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px auto;
+}
+form input, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+}
+button:hover {
+    background: #0056b3;
+}
+
+<!-- I’ll add the catalog and cart pages next! Let me know if you want me to modify anything! -->
+
